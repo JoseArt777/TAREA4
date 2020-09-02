@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body, img, hr, td, b{
+	margin-bottom: 30px;
+	opacity: 100%;
+		font-family: 'Bellota', cursive;
+
+}
+.fondo13{
+	background-size: all;
+	background-repeat: no-repeat;
+}
+
+.titulo{
+	height: 50px;
+	background-color: orange;
+	font-size: 40;
+	cursor:auto;
+	position: relative;
+	 font-family: 'Indie Flower', cursive;;
+	font-style:italic;
+	font-weight:bold;
+	color: white;
+	}
+.page{
+	width:1000px;
+	margin:0 auto;
+	overflow: hidden;
+
+	height: auto;
+}
+.align{
+	padding: 25px;
+	font-family: 'Bellota', cursive;
+	color: white;
+
+
+}
+
+.sidesbar{
+float:right;
+width:500px;
+min-height:1402px;
+background-color:  #0E6251;
+font-size: 50
+margin:3px;
+overflow: hidden;
+font-family: sans-serif;
+font-weight: bold;
+}
+
+img{
+	transition: transform 0.1s;
+}
+img:hover{
+	transform: scale(1.7);
+
+}
+hr {
+
+height: 10px;
+width: 60px;
+  background-color:#C6A41E ;
+}
+
+
+th{
+	background-color: #4CAF50;
+	color: white;
+
+}
+td{
+	border-radius: 80px 20px;
+}
+tr:nth-child(even){
+	background-color:  #0E6251;
+	border-radius: 80px 20px;
+	color: white;
+}
+table{
+	border:none;
+	text-align: center;
+	border-spacing: 15px;
+  font-family: 'Suwannaphum', cursive;
+}
+h2{
+	text-shadow: 1px 1px 2px yellow, 2px 2px   2px #a2a2a2, 3px 3px 0px blue,
+  4px 4px 0px black,
+  5px 5px 0px blue,
+  10px 10px 3px black;
+  font-family: 'Suwannaphum', cursive;
+}
+#page{
+	border-radius: 80px 80px;
+	border-color: #C6A41E;
+
+}
+#footer{
+	clear: both;
+	height:300px;
+	background-image: url(desenfoque1.jpg);
+background-attachment: fixed;
+
+}
+#content{
+	width:800px;
+	height:auto;
+	float:left;
+	background-image: url(desenfoque1.jpg);
+	background-attachment: fixed;
+	background-opacity: 80%;
+}
+.redes{
+	margin-top: 250px;
+	font-size: 50px;
+	padding: 10px;
+
+}
+
+@media (min-width: 768px){
+	.tabla{
+		width: auto;
+	}
+	.tabla{
+		justify-content: space-between;
+	}
+
+}
+.table{
+	font-family: 'Dancing Script', cursive;
+}
+
+
+@media (min-width: 480px){
+	.table{
+		width: auto;
+	}
+}
